@@ -1,0 +1,67 @@
+.bacgroundpic{
+    background-image: url('../includes/images/headerpicture.png');
+
+    background-repeat: no-repeat;
+}
+
+.topmenu{
+
+    float: right;
+    list-style:none;
+}
+.login{
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    margin-right:5px;
+    border-right: 1px solid white;
+    text-align:center;
+    float:right;
+    padding:5px;
+
+}
+.logout{
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    margin-right:5px;
+    border-right: 1px solid white;
+    text-align:center;
+    float:right;
+    padding:5px;
+}
+.newuser{
+    font-size: 15px;
+    height: 10px;
+    color: white;
+    margin-right:5px;
+    text-align:center;
+    float:right;
+    padding:5px;
+}
+
+.menubutton{
+    transition: all .2s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: white;
+    list-style:none;
+    height: 100%;
+    font-size: 20px;
+    margin-right:70px;
+    padding:5px;
+    text-align: center;
+}
+.menubutton :hover{
+    color: black;
+}
+.logo{
+     height: 100px;
+     width: 200px;
+    margin: 0 auto;
+
+}
+
+.centered {
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+    background-color: #F5F5F5;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.butt1{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    color: darkorange;
+    transition: all ease-out 300ms;
+    list-style:none;
+    font-size: 25px;
+    margin-right:100px;
+    text-align: center;
+}
+.butt2{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    color: darkorange;
+    transition: all ease-out 300ms;
+    list-style:none;
+    font-size: 25px;
+    margin-right:100px;
+    text-align: center;
+
+}

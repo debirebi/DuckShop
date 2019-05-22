@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+    background-color: #F5F5F5;
+}
+
+.form{
+    width: 500px;
+    font-size: 15px;
+
+}
+.lebels{
+    text-align: left;
+    color: #cd853f;
+}
+.warning{
+    font-size: 20px;
+    text-align: center;
+    color: #cd853f;
+    border: solid 1px #cd853f ;
+}
+.formdiv{
+    border: #cd853f;
+    margin-bottom: 0;
+    text-align: center;
+}
+.textline1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.coverpic{
+    background-image: url('../includes/images/coverpic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+
+}
+.newUserForm{
+
+    width: 50%;
+}
+.form{
+    display: inline-block;
+}

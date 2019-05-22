@@ -1,0 +1,318 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.dailyOffer{
+    font-size: 40px;
+    color: #46434A;
+    text-align: center;
+    margin: 0 auto;
+    background: none;
+}
+
+
+.newsContainer{
+    border: 1px solid #46434A ;
+    background-color: white;
+}
+
+.centered {
+    position: center;
+    text-align: center;
+
+}
+.Post{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ProductName{
+
+    color:#46434A;
+    font-size: 20px;
+}
+
+.card-content {
+    height: 300px;
+    position: center;
+}
+.specialofferpic{
+    padding: 35px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+
+}
+.specialofferpic:hover{
+    transform: scale(1.5);
+}
+
+
+input{
+    width:50%;
+    margin-bottom:20px;
+    padding:5px;
+    height:30px;
+    box-shadow:1px 1px 12px gray;
+    border-radius:3px;
+    border:none
+}
+
+.DailyOffer{
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+@keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+:root {
+    --box-x-padding: 2rem;
+    --box-y-padding: 2rem;
+}
+@media (min-width: 40em) {
+    :root {
+        --box-y-padding: 4rem;
+    }
+}
+@media (min-width: 60em) {
+    :root {
+        --box-x-padding: 3rem;
+        --box-y-padding: 6rem;
+    }
+}
+@media (min-width: 40em) {
+    section {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 4fr 4fr 5fr;
+        grid-template-areas: '. . title' 'img img content' 'img img .';
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section::after {
+        content: '';
+        grid-column: 2/-1;
+        grid-row: 1/3;
+        position: relative;
+        z-index: -1;
+        background: #fff;
+        box-shadow: 0 0.2em 1em rgba(61,48,41,0.2);
+    }
+    h1 {
+        grid-area: title;
+        padding-top: var(--box-y-padding);
+        padding-left: var(--box-x-padding);
+    }
+    .content {
+        grid-area: content;
+        padding-bottom: var(--box-y-padding);
+        padding-left: var(--box-x-padding);
+        padding-right: var(--box-x-padding);
+    }
+    .img {
+        grid-area: img;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+html {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    background-color: #f5f5f5;
+}
+
+
+
+@media (min-width: 40em) {
+    h1::after {
+        left: var(--box-x-padding);
+        top: var(--box-y-padding);
+    }
+}
+.content {
+    color: #4d4d4d;
+    margin-bottom: var(--box-y-padding);
+}
+@media (min-width: 40em) {
+    .content {
+        margin-bottom: 0;
+    }
+}
+p {
+    margin-top: 0;
+    margin-bottom: var(--box-y-padding);
+    line-height: 1.5;
+}
+.content a {
+    text-decoration: none;
+    border: 1px solid #b3b3b3;
+    border-radius: 1em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: inherit;
+    display: inline-block;
+    background-color: #fff;
+}
+.img {
+    position: relative;
+}
+.img a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.storepic {
+    max-width: 100%;
+    vertical-align: middle;
+    box-shadow: 0 0.2em 1.2em rgba(61,48,41,0.1);
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ea4c89;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+
+
+/*post*/
+
+
+
+/*posts*/
+
+h1 {
+    font-family: Open Sans, sans-serif;
+
+}
+
+.container {
+    color: #444;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    margin: 4rem auto;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+/* little circle in the middle after each post */
+.post:after {
+    content: "";
+    display: block;
+
+    /* circle */
+    width: 7px;
+    height: 7px;
+    background: #FFF;
+    border: 1px solid #aaa;
+    box-shadow: #FFF 0 0 0 10px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+    /* post's border bottom */
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+}
+.newsSection{
+    background-image: url('../includes/images/headerpicture.png');
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 200px;
+
+    color: white;
+}
+
+
+.horizontal-scroll-wrapper {
+
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.horizontal-scroll-wrapper > div {
+    width: 100px;
+    height: 100px;
+}
+.horizontal-scroll-wrapper {
+...
+transform: rotate(-90deg);
+    transform-origin: right top;
+}
+.horizontal-scroll-wrapper > div {
+...
+transform: rotate(90deg);
+    transform-origin: right top;
+}
+.horizontal-scroll-wrapper {
+...
+transform:rotate(-90deg) translateY(-100px);
+...
+}
+.NewsPost{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.PostForm{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+.addNewPostForm{
+    width:800px;
+    margin:0 auto;
+}
+.addNewPostFormTitle{
+    text-align: center;
+    font-size: 40px;
+
+}

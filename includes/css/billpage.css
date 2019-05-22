@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+    background-color: #F5F5F5;
+}
+
+h5 {
+    font-size: 2em;
+    margin: 0 0 1rem;
+    font-family: serif;
+    position: relative;
+}
+h5::after {
+    content: '';
+    position: absolute;
+    width: 6rem;
+    background-color: #ccc;
+    height: 2px;
+    top: 0;
+    left: 0;
+}
+@media (min-width: 5em) {
+    h5::after {
+     right: var(--box-x-padding);
+        top: var(--box-y-padding);
+    }
+}

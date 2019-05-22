@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+    background-color: #F5F5F5;
+}
+
+.picture{
+    width: 30%;
+    height: 50%;
+    float:left;
+
+}
+.ProductName{
+
+    color:#cd853f;
+    font-size: 20px;
+}
+
+.card-content {
+    height: 50px;
+    position: center;
+}
+.picture{
+    padding: 35px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+
+}
+.picture:hover{
+    transform: scale(1.5);
+}
+.card{
+    height: 300px;
+}
+.ifEmptyText{
+    text-align: center;
+    color:#cd853f;
+    font-size: 20px;
+}
+.textline1{
+    text-align: center;
+    font-size: 25px;
+
+}
